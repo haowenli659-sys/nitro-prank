@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitro Gift</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="card" id="giftCard">
+        <div class="gift-icon">🎁</div>
+
+        <h1>You've been gifted Nitro!</h1>
+
+        <p class="subtitle">
+            Someone has gifted you <strong>1 Month of Nitro</strong>.
+        </p>
+
+        <button id="claimButton">Accept Gift</button>
+
+        <p class="small">
+            By accepting, you'll receive your Nitro gift.
+        </p>
+    </div>
+
+    <div class="card hidden" id="claimedCard">
+        <div class="error-icon">🎁</div>
+
+        <h1>Gift Already Claimed</h1>
+
+        <p class="subtitle">
+            Unfortunately, this gift has already been claimed.
+        </p>
+
+        <p class="small">
+            Maybe someone got to it first 👀
+        </p>
+
+        <button id="backButton">Go Back</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
